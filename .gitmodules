@@ -1,3 +1,6 @@
 [submodule "lib/forge-std"]
 	path = lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "dependencies/vlayer-0.1.0-nightly-20250207-c95702c"]
+	path = dependencies/vlayer-0.1.0-nightly-20250207-c95702c
+	url = https://github.com/ayepfanial/my-repo.git
