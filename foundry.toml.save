@@ -1,18 +1,4 @@
-[profile.default]
-src = "src"
-out = "out"
-libs = ["lib", "dependencies"]
-
-[[profile.default.fs_permissions]]
-access = "read"
-path = "./testdata"
-
-[dependencies]
-"@openzeppelin-contracts" = "5.0.1"
-forge-std = "1.9.4"
-vlayer = "0.1.0-nightly-20250207-c95702c"
-
-[dependencies.risc0-ethereum]
+ethereum]
 version = "1.2.0"
 url = "https://github.com/vlayer-xyz/risc0-ethereum/releases/download/v1.2.0-soldeer/contracts.zip"
 
